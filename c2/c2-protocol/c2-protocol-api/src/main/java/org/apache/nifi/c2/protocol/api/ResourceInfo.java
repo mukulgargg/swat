@@ -27,7 +27,7 @@ public class ResourceInfo implements Serializable {
 
     private String hash;
 
-    @Schema(description = "A global hash calculated from all the available resources on the agent", requiredMode = Schema.RequiredMode.REQUIRED)
+    @Schema(description = "A global hash calculated from all the available resources on the agent", required = true)
     public String getHash() {
         return hash;
     }
